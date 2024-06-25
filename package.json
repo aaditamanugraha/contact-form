@@ -1,0 +1,22 @@
+{
+  "name": "contact-form",
+  "version": "1.0.0",
+  "description": "![Design preview for the Contact form coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaditamanugraha/contact-form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaditamanugraha/contact-form/issues"
+  },
+  "homepage": "https://github.com/aaditamanugraha/contact-form#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
