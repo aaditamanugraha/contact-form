@@ -11,6 +11,9 @@ module.exports = {
         "neutral-grey-500-medium": "hsl(186, 15%, 59%)",
         "neutral-grey-900-darker": "hsl(187, 24%, 22%)",
       },
+      fontFamily: {
+        karla: ['"Karla"', "sans-serif"],
+      },
     },
   },
   plugins: [],
