@@ -12,46 +12,86 @@
     <link rel="stylesheet" href="./src/css/output.css" />
     <title>Frontend Mentor | Contact form</title>
   </head>
-  <body class="bg-primary-green-200-lighter p-3">
-    <main class="bg-neutral-white p-5 rounded-2xl">
-      <h1 class="text-xl font-bold">Contact Us</h1>
-      <form action="" method="get">
-        <p>First Name *</p>
-        <input type="text" name="first_name" id="first_name" />
+  <body class="bg-primary-green-200-lighter p-3 font-karla">
+    <main class="bg-neutral-white p-5 rounded-2xl mb-8">
+      <h1 class="text-xl font-bold mb-5">Contact Us</h1>
+      <form action="" method="get" class="mt-5">
+        <p class="mb-2">First Name *</p>
+        <input
+          type="text"
+          name="first_name"
+          id="first_name"
+          class="border border-neutral-grey-500-medium w-full p-2 rounded-md mb-4"
+        />
 
-        <p>Last Name *</p>
-        <input type="text" name="last_name" id="last_name" />
+        <p class="mb-2">Last Name *</p>
+        <input
+          type="text"
+          name="last_name"
+          id="last_name"
+          class="border border-neutral-grey-500-medium w-full p-2 rounded-md mb-4"
+        />
 
-        <p>Email Address *</p>
-        <input type="email" name="email" id="email" />
+        <p class="mb-2">Email Address *</p>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="border border-neutral-grey-500-medium w-full p-2 rounded-md mb-4"
+        />
 
-        <p>Query Type *</p>
-        <div class="radio-btn">
+        <p class="mb-2">Query Type *</p>
+        <div
+          class="radio-btn border border-neutral-grey-500-medium w-full p-2 rounded-md mb-2"
+        >
           <input type="radio" name="general_enquiry" id="general_enquiry" />
           <label for="general_enquiry">General Enquiry</label>
         </div>
-        <div class="radio-btn">
+        <div
+          class="radio-btn border border-neutral-grey-500-medium w-full p-2 rounded-md mb-4"
+        >
           <input type="radio" name="support_request" id="support_request" />
           <label for="support_request">Support Request</label>
         </div>
 
-        <p>Message *</p>
-        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <p class="mb-2">Message *</p>
+        <textarea
+          name="message"
+          id="message"
+          cols="30"
+          rows="10"
+          class="border border-neutral-grey-500-medium w-full p-2 rounded-md mb-4"
+        ></textarea>
 
-        <input type="checkbox" name="consent_checkbox" id="consent_checkbox" />
-        <label for="consent_checkbox"
-          >I consent to being contacted by the team *</label
-        >
+        <div class="flex">
+          <input
+            type="checkbox"
+            name="consent_checkbox"
+            id="consent_checkbox"
+            class="mr-3"
+          />
+          <label for="consent_checkbox"
+            >I consent to being contacted by the team *</label
+          >
+        </div>
       </form>
     </main>
 
-    <footer>
+    <footer class="text-sm grid place-items-center">
       <p>
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          class="font-semibold hover:underline"
+          >Frontend Mentor</a
         >.
       </p>
-      <p>Coded by <a href="#">Adhitya Aditama Nugraha</a>.</p>
+      <p>
+        Coded by
+        <a href="#" class="font-semibold hover:underline"
+          >Adhitya Aditama Nugraha</a
+        >.
+      </p>
     </footer>
   </body>
 </html>
