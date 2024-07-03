@@ -14,6 +14,9 @@ module.exports = {
       fontFamily: {
         karla: ['"Karla"', "sans-serif"],
       },
+      minWidth: {
+        375: "23.438rem",
+      },
     },
   },
   plugins: [],
