@@ -2564,6 +2564,29 @@ video {
   }
 }
 
+@media (min-width: 768px) {
+  .md\:my-12 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .md\:grid {
+    display: grid;
+  }
+
+  .md\:w-768 {
+    width: 48rem;
+  }
+
+  .md\:place-content-center {
+    place-content: center;
+  }
+
+  .md\:p-0 {
+    padding: 0px;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   @media (min-width: 1024px) {
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover {
